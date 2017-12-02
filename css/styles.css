@@ -1,10 +1,16 @@
-.menu{display:block;}
+.menu{
+	display:block;
+background-color:#0A0505; 
+}
  
-.menu li{display: inline-block;
+.menu li{
+	display: inline-block;
 position: relative;
-z-index:100;}
+z-index:100;
+}
  
-.menu li a {font-weight:600;
+.menu li a {
+	font-weight:600;
 text-decoration:none;
 padding:11px;
 display:block;
@@ -17,5 +23,10 @@ color:#ffffff;
    transition: all 0.2s ease-in-out 0s;
 }
  
-.menu li a:hover, .menu li:hover > a{color:#ffffff;
-background:#9CA3DA;}
+.menu li a:hover, .menu li:hover > a{
+	color:#ffffff;
+background:#9CA3DA;
+}
+body{
+	background-color: #4EB5F0;
+}
