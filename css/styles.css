@@ -1,12 +1,14 @@
+
 .menu{
 	display:block;
-background-color:#0A0505; 
+background-color:#0A0505;
+margin-top: -20px;
 }
  
 .menu li{
 	display: inline-block;
 position: relative;
-z-index:100;
+/*z-index:100;*/
 }
  
 .menu li a {
@@ -28,27 +30,38 @@ color:#ffffff;
 background:#9CA3DA;
 }
 body{
-	background-color: #0A4E35;
+/*background-color: #0A4E35;*/
+background-color: white;
+margin: 0;
 }
 
 
 /*slider*/
 
 * {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;}
-.mySlides {display:none}
+body {
+  font-family: Verdana,sans-serif;
+}
+.mySlides {
+margin-top: -20px;
+  display:none
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+/*  max-width: 1000px;*/
+/*max-width: 100%;*/
+
+width: 100%;
   position: relative;
-  margin: auto;
+
+/*  margin: auto;*/
 }
 
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -57,6 +70,7 @@ body {font-family: Verdana,sans-serif;}
 }
 
 /* Number text (1/3 etc) */
+/*
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -64,8 +78,9 @@ body {font-family: Verdana,sans-serif;}
   position: absolute;
   top: 0;
 }
-
+*/
 /* The dots/bullets/indicators */
+/*
 .dot {
   height: 15px;
   width: 15px;
@@ -74,7 +89,7 @@ body {font-family: Verdana,sans-serif;}
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
+}*/
 
 .active {
   background-color: #717171;
@@ -101,4 +116,43 @@ body {font-family: Verdana,sans-serif;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+
+/*Estructura*/
+section{
+  margin-top: -22px;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+article{
+  
+   padding: 5px 5px 5px 5px;
+ /*   border:2px solid black;*/
+ 
+ }
+p{
+  padding-top: 1em; 
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+
+}
+.izq{
+  margin-left: 10px;
+  width: 600px;
+  float: left;
+}
+.der{
+ margin-right: 10px;
+ width: 400px;
+  float: right; 
+
+}
+.medio{
+  width: 300px;
+  float: left;
+  margin-left: 15px;
 }
