@@ -148,6 +148,29 @@ p{
   text-align: justify;
 
 }
+/*Clases*/
+.Logo{
+/*   margin-right: 10px;*/
+    float: right;   
+    font: normal 26px 'Cookie', cursive;
+}
+.Logo a{
+  text-decoration: none;
+color: black;
+}
+.Logo2{
+  margin:0px;
+  color:  #5383d3;
+}
+.Logo a:hover{
+background-color:  #2BAB73;
+color: white;
+}
+
+.Logo a:hover span{
+color: black;
+}
+
 .izq{
   margin-left: 10px;
   width: 600px;
@@ -164,3 +187,4 @@ p{
   float: left;
   margin-left: 15px;
 }
+
