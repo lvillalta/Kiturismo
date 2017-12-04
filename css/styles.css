@@ -28,7 +28,7 @@ color:#ffffff;
    transition: all 0.2s ease-in-out 0s;
 }
  
-.menu li a:hover, .menu li:hover > a{
+.menu li a:hover, .menu li:hover > a,#form1 #enviar:hover{
 	color:#ffffff;
 /*background:#9CA3DA;*/
 background: #2BAB73
@@ -182,16 +182,16 @@ width: 100%;
 margin-top: -20px;
 }
 .informacion{
-  height: 700px;
+  height: 650px;
     /*background-color: #F8E4E4;*/
 
 }
 .informacion article{
  margin-left: 10px;
   width: 400px;
-  height: 700px;
+  height: 650px;
   float: left; 
-padding-top: 40px;
+padding-top: 80px;
 }
 .informacion article ul li{
   list-style-type :none;
@@ -206,11 +206,30 @@ text-align: left;
   padding-top: 10px;
   text-align: left;
 }
-#form1 input{
+#form1{
+  padding-top: 85px;
+}
+#form1 p input{
   width:50%;
 height: 25px;
 }
+#form1 p{
+  padding-top: 0px;
+}
+
 #form1 #mensaje{
   height: 200px;
 }
-#
+#form1 #enviar{
+width: 100px;
+height: 40px;
+border-radius: 8px;
+  font-weight:600;
+
+  -webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+
