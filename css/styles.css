@@ -182,3 +182,13 @@ width: 100%;
 .informacion{
   height: 600px;
 }
+.informacion article{
+ margin-left: 10px;
+  width: 600px;
+  float: left; 
+}
+.informacion article ul li{
+  list-style-type :none;
+margin-left: -20px;
+text-align: left;
+}
