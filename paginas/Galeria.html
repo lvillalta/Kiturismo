@@ -7,26 +7,15 @@
 	<link rel="stylesheet" href="../css/footer-distributed-with-address-and-phones.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="../javaScript/scriptC.js"></script>
-</head>
-<body>
-		<head>
-		<nav class="menu">
-			
-			<ul>
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="galeria.html">Galería</a></li>
-				<li><a href="contacto.html">Contactos</a></li>
-				<div class="Logo">
-					<a href="../index.html">
-					Kitur<span class="Logo2">ismo</span>
-					</a>
-				</div>
-
-			</ul>
-		</nav>
-
-	<style>
-
+	<script>
+            function galery(e) {
+                if (e.classList.length == 0)
+                        e.classList.add("select")
+                    else
+                    e.classList.remove("select")
+                }
+    </script>
+    <style>
             section{
                 width:100%;
                 margin:0 auto;
@@ -136,12 +125,11 @@
                 #container div.select + div{
                     margin: 5px 3% 5px 15%;
                 }
-
             }
 
             @keyframes rotate-img
             {
-                0%   {transform:rotate(10deg);}
+            0%   {transform:rotate(10deg);}
             20%  {transform:rotate(-10deg);}
             40%   {transform:rotate(12deg);}
             60%  {transform:rotate(-12deg);}
@@ -152,7 +140,7 @@
 
             @-moz-keyframes rotate-img
             {
-                0%   {-moz-transform:rotate(10deg);}
+            0%   {-moz-transform:rotate(10deg);}
             20%  {-moz-transform:rotate(-10deg);}
             40%   {-moz-transform:rotate(12deg);}
             60%  {-moz-transform:rotate(-12deg);}
@@ -163,7 +151,7 @@
 
             @-webkit-keyframes rotate-img
             {
-                0%   {-webkit-transform:rotate(4deg);}
+            0%   {-webkit-transform:rotate(4deg);}
             20%  {-webkit-transform:rotate(-4deg);}
             40%   {-webkit-transform:rotate(3deg);}
             60%  {-webkit-transform:rotate(-3deg);}
@@ -173,6 +161,22 @@
             }
 
         </style>
+</head>
+<body>
+	<head>
+		<nav class="menu">
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="galeria.html">Galería</a></li>
+				<li><a href="contacto.html">Contactos</a></li>
+				<div class="Logo">
+					<a href="../index.html">
+					Kitur<span class="Logo2">ismo</span>
+					</a>
+				</div>
+			</ul>
+		</nav>
+	
 	</head>
 
 	<section>
@@ -233,25 +237,12 @@
                     <span>Quito</span>
                 </div>
             </div>
-        </section>
-        <script>
-                    function galery(e) {
-                        if (e.classList.length == 0)
-                            e.classList.add("select")
-                        else
-                            e.classList.remove("select")
-                    }
+        </section>    
 
-        </script>
-
-
-
-
-</section>
 <footer class="footer-distributed">
 
 			<div class="footer-left">
-
+				<br>
 				<h3>Kitu<span>rismo</span></h3>
 
 				<p class="footer-links">
