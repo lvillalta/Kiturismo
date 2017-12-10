@@ -10,16 +10,17 @@ window.onload =function () {
     mensaje= document.getElementById("mensaje");
     
     form1.onsubmit=function(){
-        if(nombre.value.length==0)
+        if(nombre.value.length==0){
           
           mens+="Ingrese un nombre";
         }
         if(email.value.length==0){
             
-            mens+="Ingrese un correo";
+            mens+="\nIngrese un correo";
         }
         if(mens.length!=0){
             alert(mens);
         }
+    }
 
 }
