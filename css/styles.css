@@ -150,10 +150,17 @@ color:White;
 .Logo2{
   margin:0px;
   color:  #5383d3;
+  padding-right: 20px;
 }
 .Logo a:hover{
 background-color:  #2BAB73;
 color: white;
+font-size: 110%;
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
 }
 
 .Logo a:hover span{
@@ -234,3 +241,9 @@ font-weight:600;
    transition: all 0.2s ease-in-out 0s;
 }
 
+.enciende{
+      background-color: #FF9;
+      }
+      .apaga{
+      background-color: #FFF;
+      }
