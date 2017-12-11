@@ -7,18 +7,17 @@
 	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<script>
-                    function galery(e) {
-                        if (e.classList.length == 0)
-                            e.classList.add("select")
-                        else
-                            e.classList.remove("select")
-                    }
+        function galery(e) {
+            if (e.classList.length == 0)
+                e.classList.add("select")
+            else
+                e.classList.remove("select")
+            }
+    </script>
 
-        </script>
 	<style>
-
             section{
-                width:100%;
+                width:80%;
                 margin:0 auto;
             }
 
@@ -50,7 +49,6 @@
             }
 
             /*Se rota ligeramente al posicionarnos encima del componente de la galeria (imagen + descripcion)*/
-
 
             #container div:hover{
                 -webkit-animation: rotate-img 1s;
@@ -126,7 +124,6 @@
                 #container div.select + div{
                     margin: 5px 3% 5px 15%;
                 }
-
             }
 
             @keyframes rotate-img
@@ -164,12 +161,13 @@
 
         </style>
 </head>
+
 <body>
 	<head>
 		<nav class="menu">
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
-				<li><a href="paginas/galeria.html">Galería</a></li>
+				<li><a href="galeria.html">Galería</a></li>
 				<li><a href="paginas/contacto.html">Contactos</a></li>
 				<div class="Logo">
 					<a href="index.html">
@@ -181,7 +179,7 @@
 
 	</head>
 
-<section>
+    <section>
             <div id="container">
                 <div onclick="galery(this)">
                     <img src="img/1.jpg"/>
@@ -232,96 +230,62 @@
             </div>
         </section>
 
+    <script type="text/javascript" src="javascript/script.js"></script>
 
-<section>
-	
-	<article class="izq">
-		
-			<h3>Kiturismo</h3>
-			<p >
-			Kiturismo. S.A. es una empresa ecuatoriana con sede en la ciudad de Quito, fundada en 2017 con la finalidad de restacar la cultura de la ciudad de Quito, además dar una visión diferente fuera de una era digital ofreciendo servicios de turismo cultural e histórico en el área metropolitana con énfasis en los procesos coloniales de formación social a través de visitas guiadas a las representaciones artísticas manifestadas en la arquitectura, pintura, artesanías entre otras; su estudio permite realizar acercamientos a la realidad histórica, ofreciendo un espacio de conocimiento y debate a nacionales, extranjeros, estudiantes y otros grupos de investigación que realicen aproximaciones teóricas del pasado de la ciudad y del país.
-Debido a la diversidad de servicios que ofrecemos, Kiturismo está estructurada en cuatro áreas: Dirección general, Administración y Recursos humanos, y Marketing.
-		</p>
-	</article>
+	<footer class="footer-distributed">
 
-		<article class="medio">
-<h3>Misión</h3>
+		<div class="footer-left">
 
-		<p>
-Promover y orientar el turismo dentro del Distrito Metropolitano de Quito a fin de asegurar experiencias memorables en el visitante favoreciendo el desarrollo local de los destinos visitados, lo cual contribuirá a la integración territorial, a la recuperación y mantenimiento del Patrimonio Histórico-Cultural de nuestro país y a la preservación y disfrute de espacios naturales
+			<h3>Kitu<span>rismo</span></h3>
 
-		</p>
-			</article>
-				<article class="der">
-		<br>
-		<br>
-		<h3>Visión</h3>
-		<p>
-Consolidarnos como una empresa líder del sector turístico, en el área Histórica - Cultural, dentro del Distrito Metropolitano de Quito que gestione la difusión de información histórica, patrimonial, cultural y urbana, presentando innovadores servicios y asegurando una actividad turística estable, promoviendo un ambiente de buenas relaciones y obteniendo la mayor satisfacción de nuestros clientes.			
-		</p>
-	</article>
-</section>
+			<p class="footer-links">
+				<a href="index.html">Inicio</a>
+				·
+				<a href="paginas/galeria.html">Galería</a>
+				·
+				<a href="paginas/contacto.html">Contactos</a>
+				
+			</p>
 
-<script type="text/javascript" src="javascript/script.js">
-</script>
-		<footer class="footer-distributed">
+			<p class="footer-company-name">Kiturismo &copy; 2017</p>
+		</div>
 
-			<div class="footer-left">
+		<div class="footer-center">
 
-				<h3>Kitu<span>rismo</span></h3>
-
-				<p class="footer-links">
-					<a href="index.html">Inicio</a>
-					·
-					<a href="paginas/galeria.html">Galería</a>
-					·
-					<a href="paginas/contacto.html">Contactos</a>
-					
-				</p>
-
-				<p class="footer-company-name">Kiturismo &copy; 2017</p>
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Ladrón de Guevara E11·253</span> Quito, Ecuador</p>
 			</div>
 
-			<div class="footer-center">
-
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>Ladrón de Guevara E11·253</span> Quito, Ecuador</p>
-				</div>
-
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+593 98928 722</p>
-				</div>
-
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:luis.villalta@epn.edu.ec">luis.villalta@epn.edu.ec</a></p>
-
-					<p><a href="mailto:david.velasco@epn.edu.ec" class="correo">david.velasco@epn.edu.ec</a></p>
-				</div>
-
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+593 98928 722</p>
 			</div>
 
-			<div class="footer-right">
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:luis.villalta@epn.edu.ec">luis.villalta@epn.edu.ec</a></p>
+				<p><a href="mailto:david.velasco@epn.edu.ec" class="correo">david.velasco@epn.edu.ec</a></p>
+			</div>
+		</div>
 
-				<p class="footer-company-about">
-					<span>Acerca de nosotros</span>
-					Kiturismo. S.A. es una empresa ecuatoriana con sede en la ciudad de Quito, fundada en 2017 por la motivación de un grupo de estudiantes de la Escuela Politécnica Nacional.
-				</p>
+		<div class="footer-right">
 
-				<div class="footer-icons">
+			<p class="footer-company-about">
+				<span>Acerca de nosotros</span>
+				Kiturismo. S.A. es una empresa ecuatoriana con sede en la ciudad de Quito, fundada en 2017 por la motivación de un grupo de estudiantes de la Escuela Politécnica Nacional.
+			</p>
 
-					<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-					<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-					<a href="https://ec.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://github.com/lvillalta/Kiturismo"><i class="fa fa-github"></i></a>
+			<div class="footer-icons">
 
-				</div>
+				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+				<a href="https://ec.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+				<a href="https://github.com/lvillalta/Kiturismo"><i class="fa fa-github"></i></a>
 
 			</div>
+		</div>
+	</footer>
 
-		</footer>
-
-</body>
+    </body>
 </html>

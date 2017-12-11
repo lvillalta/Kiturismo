@@ -1,0 +1,236 @@
+
+.menu{
+	display:block;
+/*background-color:white;*/
+background-color: #292c2f;
+margin-top: -20px;
+}
+ 
+.menu li{
+	display: inline-block;
+position: relative;
+/*z-index:100;*/
+}
+ 
+.menu li a {
+	font-weight:600;
+text-decoration:none;
+padding:11px;
+display:block;
+/*background: black;*/
+color:#ffffff;
+/*color: black;*/
+ 
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+ 
+.menu li a:hover, .menu li:hover > a,#form1 #enviar:hover{
+	color:#ffffff;
+/*background:#9CA3DA;*/
+background: #2BAB73
+}
+body{
+/*background-color: #0A4E35;*/
+/*background-color: white;*/
+margin: 0px;
+background-color: #F0EAEA;
+}
+
+
+/*slider*/
+
+* {box-sizing:border-box}
+body {
+  font-family: Verdana,sans-serif;
+}
+.mySlides {
+margin-top: -12px;
+  display:none
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.correo{
+  padding-left: 70px;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/*Estructura*/
+section{
+  margin-top: -22px;
+  height: 400px;
+  width: 100%;
+ /* background-color: white;*/
+  text-align: center;
+}
+article{
+  
+   padding: 5px 5px 5px 5px;
+ /*   border:2px solid black;*/
+ 
+ }
+p{
+  padding-top: 1em; 
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+
+}
+/*Clases*/
+.Logo{
+/*   margin-right: 10px;*/
+    float: right;   
+    font: normal 26px 'Cookie', cursive;
+}
+.Logo a{
+  text-decoration: none;
+/*color: black;*/
+color:White;
+}
+.Logo2{
+  margin:0px;
+  color:  #5383d3;
+}
+.Logo a:hover{
+background-color:  #2BAB73;
+color: white;
+}
+
+.Logo a:hover span{
+color: black;
+}
+
+.izq{
+  margin-left: 10px;
+  width: 600px;
+  float: left;
+}
+.der{
+ margin-right: 10px;
+ width: 400px;
+  float: right; 
+
+}
+.medio{
+  width: 300px;
+  float: left;
+  margin-left: 15px;
+}
+
+.mapa{
+width: 100%;
+margin-top: -15px;
+}
+.informacion{
+  height: 680px;
+    /*background-color: #F8E4E4;*/
+
+}
+.informacion article{
+ margin-left: 10px;
+  width: 400px;
+  height: 680px;
+  float: left; 
+padding-top: 80px;
+}
+.informacion article ul li{
+  list-style-type :none;
+margin-left: -20px;
+text-align: left;
+}
+.informacion article  h3,h4{
+  text-align: left;
+}
+.informacion article p{
+  margin: 0;
+  padding-top: 10px;
+  text-align: left;
+}
+#form1{
+  padding-top: 85px;
+}
+#form1 p input{
+  width:50%;
+height: 25px;
+}
+#form1 p{
+  padding-top: 0px;
+}
+
+#form1 p textarea{
+  width: 50%;
+  height: 200px;
+}
+#form1 #enviar{
+width: 100px;
+height: 40px;
+border-radius: 8px;
+font-weight:600;
+
+  -webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+
