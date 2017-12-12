@@ -36,11 +36,7 @@ window.onload =function () {
         if(mens.length!=0){
             alert(mens);
         }else{
-                alert(nombre.value+"\n"+
-                email.value+"\n"+
-                asunto.value +"\n"+
-                mensaje.value
-                
+            alert("Informacion enviada"+"\n"+"Gracias por comunicarte con nosotros "+nombre.value    
                 );
         }
     }
