@@ -116,6 +116,7 @@ margin-top: -12px;
 
 
 /*Estructura*/
+
 section{
   margin-top: -22px;
   height: 400px;
@@ -247,3 +248,92 @@ font-weight:600;
       .apaga{
       background-color: #FFF;
       }
+
+
+/*Resposive*/
+/*Pantalla*/
+@media only screen and (min-width:769px){
+    body:800px;
+}
+
+/*Tabletas*/
+@media only screen and (min-width:481px) and (max-width:768px){
+    body, article, aside{
+        width: 80%;
+    }
+    img{
+        clear: both;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 0.8em;
+        color: white;
+    }
+    p{
+        line-height: 1.1em; 
+    }
+    #izq{
+        clear: both; 
+        width: 100%;
+        height: auto;
+    }
+    #der{
+        clear: both; 
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*Movil*/
+@media only screen and (max-width:480px){
+    body, article, aside{
+        width: 320px;
+    }
+    img{
+        clear: both;
+        width: 290px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 1.6em;
+    }
+    h2{
+        font-size: 1.4em;
+    }
+    h3{
+        font-size: 0.8em;
+        color: white;
+    }
+    p{
+        line-height: 1.1em; /*Interlineado*/
+    }
+    nav{
+        font-size: 0.8em;
+        color: aqua;
+        text-align: left;
+        padding-top: 0.5em;
+    }
+    a{
+        text-align: left;
+        text-decoration: none;
+        letter-spacing: normal;
+        color: azure;
+    }
+    #izq{
+        clear: both; 
+        width: 100%;
+        height: auto;
+    }
+    #der{
+        clear: both; 
+        width: 100%;
+        height: auto;
+    }
+}
