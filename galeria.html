@@ -22,8 +22,7 @@
                 height: auto
             }
 
-            /*Para que el contenedor muestre elementos aunque estos sean flotantes*/
-            #container:after {
+             #container:after {
                 content: " ";
                 display: block;
                 height: 0;
@@ -35,8 +34,7 @@
                 margin:40px auto;
             }
 
-            /*Estructura de cada componente de la galeria (imagen + descripcion)*/
-            #container div{
+             #container div{
                 position: relative;
                 width: 28%;
                 height: auto;
@@ -49,8 +47,7 @@
                 -webkit-transition: -webkit-transform 1s, width 1s, top 1s;
             }
 
-            /*Se rota ligeramente al posicionarnos encima del componente de la galeria (imagen + descripcion)*/
-
+       
             #container div:hover{
                 -webkit-animation: rotate-img 1s;
                 -o-animation: rotate-img 1s;
@@ -82,6 +79,14 @@
                 left:20%;
             }
 
+
+             #container div.select li{
+              color:white;
+              list-style: none;
+            }
+
+
+
             #container div.select + div{
                 margin: 5px 3% 5px 31%;
             }
@@ -93,8 +98,7 @@
                 border: 5px solid #FFF
             }
 
-            /*Estructura de la descripcion, por defecto no se muestra*/
-            #container div img ~ span{
+           #container div img ~ span{
                 width: auto;
                 opacity:0;
                 -webkit-transition: opacity 1s;
@@ -108,15 +112,11 @@
                 top: 20%;
                 left:20%;
             }
-
-            /*Se muestra la descripcion al posicionar el cursor encima de la imagen*/
-            #container div.select img + span{
+     #container div.select img + span{
                 opacity:1;
             }
 
-            /*Media query de ejemplo para pantallas de alta resolucion
-              pero pueden haber mas, este media query permite mostrar hasta 5 imagenes por filas
-            */
+          
             @media (min-width:1600px){
                 #container div{
                     width: 15%;
